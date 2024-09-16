@@ -18,5 +18,7 @@ class Endereco:
             f"\nComplemento:{self.complemento}"
             f"\nCep:{self.cep}"
             f"\nCidade:{self.cidade}"
-            f"\nUF:{self.uf.value}"
+            f"\nEstado:{self.uf.nome}"
+            f"\nUF:sigla:{self.uf.caracter}"
+          
         )

@@ -13,5 +13,14 @@ class Pessoa:
         self.endereco = endereco
 
     def __str__(self) -> str:
-        return(f"\nID:{self.id} \nNome:{self.nome} \nData Nascimento:{self.dataNascimento} ,\nTelefone:{self.telefone} \nEmail:{self.email} \nSexo:{self.sexo} \nEndereço:{self.endereco}")
+        return(
+                f"\nID:{self.id}"
+                f"\nNome:{self.nome}"
+                f"\nData Nascimento:{self.dataNascimento}"
+                f"\nTelefone:{self.telefone} "
+                f"\nEmail:{self.email} "
+                f"\nSexo:{self.sexo.texto}" 
+                f"\nSexo:{self.sexo.caracter}" 
+                f"\nEndereço:{self.endereco}"
+            )
     
